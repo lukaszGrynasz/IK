@@ -1,9 +1,11 @@
 pragma solidity ^0.5.0;
 
-contract Lesson10 {
+contract Lesson11 {
     
-    //private, public, internal, external
-
+    // modifier owner {
+    //     _;
+    // }
+    
     uint[] private a;
      
     constructor() public {
@@ -11,21 +13,14 @@ contract Lesson10 {
     
     }
      
-    function modifyTable(uint[] memory temp ) public {
-        temp[0] = 100;
-    }
-    
     function modify() public {
-        modifyTable(a);
+       
     }
    
     function display() public view returns(uint[] memory) {
         return a;
     }
     
-    
-    // function externalCall public(uint[] a) external {
-        
-    // }
+   
     
 }
