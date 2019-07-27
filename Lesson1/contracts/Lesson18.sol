@@ -1,10 +1,10 @@
 pragma solidity ^0.5.0;
 
-contract Ownable {
-    //internal
+interface Ownable {
+    
 }
 
-contract Lesson17 is Ownable {
+contract Lesson18 is Ownable {
     
    
     constructor() public Ownable() {
