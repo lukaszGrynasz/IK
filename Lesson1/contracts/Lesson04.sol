@@ -5,8 +5,8 @@ contract Lesson04 {
     //address
     address public owner;
     
-    constructor() public {
-        
+    constructor(address _owner) public {
+        owner = _owner;
     }
     
     

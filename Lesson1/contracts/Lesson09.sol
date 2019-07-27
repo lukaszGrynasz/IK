@@ -1,18 +1,18 @@
 pragma solidity ^0.5.0;
 
-contract Lesson08 {
+contract Lesson09 {
     
-    // mapping potem balance
-    //mapping(address=>uint) public votes
-    enum VoteType {
-        None,
-        For,
-        Against
-        
+    /*
+    struct Array{
+      mapping(uint=>uint)
+      uint length;
     }
+    */
+    
+    //Array private array;
      
     constructor() public {
-    
+        //array = Array();
     
     }
     

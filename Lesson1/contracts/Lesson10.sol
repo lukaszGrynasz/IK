@@ -2,8 +2,6 @@ pragma solidity ^0.5.0;
 
 contract Lesson10 {
     
-    //private, public, internal, external
-
     uint[] private a;
      
     constructor() public {
